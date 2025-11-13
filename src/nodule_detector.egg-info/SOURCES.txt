@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/app.py
+src/nodule_detector.egg-info/PKG-INFO
+src/nodule_detector.egg-info/SOURCES.txt
+src/nodule_detector.egg-info/dependency_links.txt
+src/nodule_detector.egg-info/requires.txt
+src/nodule_detector.egg-info/top_level.txt

@@ -1,0 +1,30 @@
+[project]
+name = "nodule-detector"
+version = "0.1.0"
+description = "Deep-sea nodule detection using OpenCV, PyTorch, and Streamlit."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+authors = [
+  { name = "Inez Alvarez", email = "inez9@berkeley.edu" }
+]
+
+dependencies = [
+  "opencv-python-headless",
+  "numpy",
+  "matplotlib",
+  "streamlit",
+  "torch",
+  "torchvision",
+  "torchaudio",
+  "scikit-image",
+  "pillow"
+]
+
+[tool.uv]
+# optional: controls virtual environment settings
+index-url = "https://pypi.org/simple"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+

@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: nodule-detector
+Version: 0.1.0
+Summary: Deep-sea nodule detection using OpenCV, PyTorch, and Streamlit.
+Author-email: Inez Alvarez <inez9@berkeley.edu>
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python-headless
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: streamlit
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: scikit-image
+Requires-Dist: pillow
+
+# BOEM
